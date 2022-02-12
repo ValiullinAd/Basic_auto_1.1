@@ -13,7 +13,7 @@ public class BonusServiceTest {
         int amount = 2000;
         int expected = 10;
         int actual = bonusService.calculateBonus(amount);
-        assertEquals(expected, actual, "Wrong bonus calc");
+        assertEquals(expected, actual, "Wrong bonus calc ");
 
     }
 }
